@@ -5,6 +5,7 @@
  */
 package herencia2;
 
+import herencia1.Estudiante;
 import java.util.Locale;
 import java.util.Scanner;
 import herencia1.EstudianteDistancia;
@@ -14,6 +15,7 @@ import herencia1.EstudianteDistancia;
  * @author reroes
  */
 public class Ejecutor2 {
+
     public static void main(String[] args) {
         // 1. Ingresar un objeto de tipo Estudiante Distancia
         // Por teclado
@@ -32,7 +34,7 @@ public class Ejecutor2 {
         System.out.println("Ingrese costo asignatura");
         double costoAsignatura = entrada.nextDouble();
         EstudianteDistancia estudiante = new EstudianteDistancia();
-        
+
         estudiante.establecerNombresEstudiante(nombres);
         estudiante.establecerApellidoEstudiante(apellidos);
         estudiante.establecerEdadEstudiante(edad);
@@ -40,8 +42,8 @@ public class Ejecutor2 {
         estudiante.establecerNumeroAsginaturas(asignaturas);
         estudiante.establecerCostoAsignatura(costoAsignatura);
         estudiante.calcularMatriculaDistancia();
-        
+
         System.out.printf("%s\n", estudiante);
-        
+
     }
 }
