@@ -28,15 +28,15 @@ public class Ejecutor3 {
         System.out.println("Ingrese Estudiante Distancia[1] o Estudiante Presencial[2]");
         int aux = entrada.nextInt();
         entrada.nextLine();
+        System.out.println("Ingrese nombres");
+        String nombres = entrada.nextLine();
+        System.out.println("Ingrese apellidos");
+        String apellidos = entrada.nextLine();
+        System.out.println("Ingrese identificación");
+        String identificacion = entrada.nextLine();
+        System.out.println("Ingrese edad");
+        int edad = entrada.nextInt();
         if (aux == 1) {
-            System.out.println("Ingrese nombres");
-            String nombres = entrada.nextLine();
-            System.out.println("Ingrese apellidos");
-            String apellidos = entrada.nextLine();
-            System.out.println("Ingrese identificación");
-            String identificacion = entrada.nextLine();
-            System.out.println("Ingrese edad");
-            int edad = entrada.nextInt();
             System.out.println("Ingrese número de asignaturas");
             int asignaturas = entrada.nextInt();
             System.out.println("Ingrese costo asignatura");
@@ -54,14 +54,7 @@ public class Ejecutor3 {
 
         } else {
             if (aux == 2) {
-                System.out.println("Ingrese nombres");
-                String nombres = entrada.nextLine();
-                System.out.println("Ingrese apellidos");
-                String apellidos = entrada.nextLine();
-                System.out.println("Ingrese identificación");
-                String identificacion = entrada.nextLine();
-                System.out.println("Ingrese edad");
-                int edad = entrada.nextInt();
+
                 System.out.println("Ingrese número de asignaturas");
                 int numCredito = entrada.nextInt();
                 System.out.println("Ingrese costo asignatura");
@@ -84,4 +77,3 @@ public class Ejecutor3 {
 
     }
 }
-
