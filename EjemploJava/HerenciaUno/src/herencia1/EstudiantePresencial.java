@@ -44,8 +44,8 @@ public class EstudiantePresencial extends Estudiante {
 
     @Override
     public String toString() {
-        String mensaje;
-        mensaje = String.format("Nombres: %s\n"
+
+        String mensaje = String.format("Nombres: %s\n"
                 + "Costo matrícula: %.1f\n",
                 nombresEstudiante,
                 matriculaPresencial);
